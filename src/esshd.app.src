@@ -1,0 +1,12 @@
+{application, esshd,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { esshd_app, []}},
+  {env, []}
+ ]}.
