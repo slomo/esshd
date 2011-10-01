@@ -2,10 +2,6 @@
 
 -export([decode/2,decode/1]).
 
--record(pstate,{recvBits=empty,expectedLength}).
--record(bpacket,{payload,mac}).
--record(packet,{type,content}).
-
 -include("./esshd.hrl").
 
 decode([Packet,_Greeting]) ->
