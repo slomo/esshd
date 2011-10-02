@@ -1,6 +1,6 @@
 
 %% records
--record(pstate,{recvBits=empty,expectedLength}).
+-record(pstate,{recvBits,expectedLength}).
 -record(bpacket,{payload,mac}).
 -record(packet,{type,content}).
 
